@@ -11,7 +11,7 @@ const ItemCount = ({stock}) => {
     }
 
     const decrementarStock = () =>{
-        if (items > 0){
+        if (items > 1){
             setItems(items - 1);
         }
     }
@@ -24,8 +24,8 @@ const ItemCount = ({stock}) => {
     }
 
     useEffect(() => {
-        setItemStock(itemStock);
-    }, [itemStock]);
+        setItemStock(stock);
+    }, [stock]);
 
     return (
         <div className="container">

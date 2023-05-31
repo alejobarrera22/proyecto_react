@@ -1,24 +1,24 @@
-//import { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import ItemCount from "./itemCount";
 
 const ItemDetail = ({producto}) => {
-    //const [setItem] = useState({});
+    const [item, setItem] = useState({});
 
-    //useEffect(() => {
-    //    setItem(producto);
-    //}, [producto]);
+    useEffect(() => {
+        setItem(producto);
+    }, [producto]);
 
     return(
         <div className="container">
             <div className="row">
                 <div className="col-md-4 offset-md-3">
-                    <img src={producto.imagen} className="img-fluid" alt=""/>
+                    <img src={item.imagen} className="img-fluid" alt=""/>
                 </div>
                 <div className="col-md-4">
-                    <h1>{producto.titulo}</h1>
-                    <h2>{producto.descripcion} </h2>
-                    <h3> <b> </b>Precio: ${producto.precio} <b/> </h3>
-                    <ItemCount stock={producto.stock}/>
+                    <h1>{item.titulo}</h1>
+                    <h2>{item.descripcion} </h2>
+                    <h3> <b> </b>Precio: ${item.precio} <b/> </h3>
+                    <ItemCount stock={item.stock}/>
                 </div>
             </div>
         </div>

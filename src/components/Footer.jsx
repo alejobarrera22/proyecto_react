@@ -3,6 +3,7 @@ import Facebook from "../components/images/icons8-facebook.svg"
 import Twitter from "../components/images/icons8-twitter.svg"
 import Instagram from "../components/images/icons8-instagram.svg"
 import Newsletter from "../components/images/newsletter-email.png"
+import { Link } from "react-router-dom"
 
 const Footer = () =>{
     return(
@@ -23,9 +24,9 @@ const Footer = () =>{
                     <img src={Motorola} width={150} />
                 </div>
                 <div className="col-md-4">
-                    <img src={Facebook} width={30} />
-                    <img src={Twitter} width={30} />
-                    <img src={Instagram} width={30} />
+                    <Link to={"https://www.facebook.com/MotorolaInAR/"}><img src={Facebook} width={30} /></Link>  
+                    <Link to={"https://twitter.com/motorola_ar"}><img src={Twitter} width={30} /></Link>
+                    <Link to={"https://www.instagram.com/motorola_ar/"}><img src={Instagram} width={30} /></Link>
                 </div>
                 <div className="col-md-4">
                     ubicacion

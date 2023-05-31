@@ -10,7 +10,7 @@ const Footer = () =>{
         <div className="container-fluid">
             <div className="row mt-2 bg-light text-dark">
                 <div className="col-md-4">
-                    <img src={Newsletter} width={60}/>
+                    <img src={Newsletter} width={60} alt="correo"/>
                 </div>
                 <div className="col-md-4">
                     suscribite
@@ -20,13 +20,13 @@ const Footer = () =>{
                 </div>
             </div>
             <div className="row mt-2 bg-light text-dark">
-                <div className="col-md-4">
-                    <img src={Motorola} width={150} />
+                <div className="col-md-4"> 
+                    <img src={Motorola} width={150} alt="logo motorola"/>
                 </div>
                 <div className="col-md-4">
-                    <Link to={"https://www.facebook.com/MotorolaInAR/"}><img src={Facebook} width={30} /></Link>  
-                    <Link to={"https://twitter.com/motorola_ar"}><img src={Twitter} width={30} /></Link>
-                    <Link to={"https://www.instagram.com/motorola_ar/"}><img src={Instagram} width={30} /></Link>
+                    <Link to={"https://www.facebook.com/MotorolaInAR/"}><img src={Facebook} width={30} alt="face" /></Link>  
+                    <Link to={"https://twitter.com/motorola_ar"}><img src={Twitter} width={30} alt="tw"/></Link>
+                    <Link to={"https://www.instagram.com/motorola_ar/"}><img src={Instagram} width={30} alt="ig" /></Link>
                 </div>
                 <div className="col-md-4">
                     ubicacion

@@ -1,12 +1,12 @@
-import { useEffect, useState } from "react";
+//import { useEffect, useState } from "react";
 import ItemCount from "./itemCount";
 
 const ItemDetail = ({producto}) => {
-    const [setItem] = useState({});
+    //const [setItem] = useState({});
 
-    useEffect(() => {
-        setItem(producto);
-    }, [producto]);
+    //useEffect(() => {
+    //    setItem(producto);
+    //}, [producto]);
 
     return(
         <div className="container">

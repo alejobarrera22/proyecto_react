@@ -3,10 +3,10 @@ import Header from './components/header';
 import Footer from './components/Footer';
 import ItemListContainer from './components/ItemListContainer';
 import ItemDetailContainer from './components/ItemDetailContainer';
-import CartContextProvider from './components/context/CartContext';
 import {BrowserRouter, Routes, Route} from "react-router-dom"
 import Error404 from './components/Error404';
 import Cart from './components/Cart';
+import CartContextProvider from './components/context/CartContext';
 
 function App() {
   return (

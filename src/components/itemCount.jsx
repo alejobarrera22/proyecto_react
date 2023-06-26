@@ -18,7 +18,7 @@ const ItemCount = ({stock, onAdd}) => {
         }
     }
 
-    const addToCart = (onAdd) =>{
+    const addToCart = () =>{
         if (items <= itemStock){
             setItemStock(itemStock - items);
             setItems(1);

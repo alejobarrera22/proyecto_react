@@ -1,0 +1,29 @@
+.container-fluid{
+    margin: 0;
+    padding: 0;
+}
+
+.head{
+    border-bottom: 3px solid #fcfdfd;
+}
+
+.row{
+    background-color: #001428;
+    /* fcfdfd - cremita
+    08344e - verdeazul
+    42515f - gris
+    001428 - azul marino */
+}
+
+.nav-link{
+    color: #fcfdfd;
+    text-decoration: none;
+}
+
+.nav-link:hover{
+    color: #08344e;
+}
+
+.logo{
+    filter: invert(1);
+}

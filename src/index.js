@@ -1,6 +1,6 @@
 //import React, { StrictMode } from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
+import './styles/index.css';
 import App from './App';
 import { initializeApp } from "firebase/app";
 //import { getAnalytics } from "firebase/analytics";

@@ -1,4 +1,4 @@
-import './App.css';
+import './styles/App.css';
 import Header from './components/header';
 import Footer from './components/Footer';
 import ItemListContainer from './components/ItemListContainer';
@@ -11,7 +11,7 @@ import Checkout from './components/Checkout';
 
 function App() {
   return (
-    <div className='container-fluid'>
+    <div className='container-fluid bod'>
       <CartContextProvider>
         <BrowserRouter>
           <Header/>

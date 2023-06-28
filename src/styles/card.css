@@ -1,0 +1,12 @@
+.card{
+    background-color: #fcfdfd;
+    font-size: 12px;
+}
+
+h3{
+    font-size: 20px;
+}
+
+.card:hover{
+    border: 5px solid #08344e
+}
